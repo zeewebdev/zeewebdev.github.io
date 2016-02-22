@@ -34,7 +34,7 @@ http://themeforest.net/licenses
 	Hooks for responsiveness (mobile friendly) can be found in "main_responsive.css" file
 
 **/
-/*---------- 
+/*----------
 [Colors]
     text color : #FFFFFF, #FFF
     blue : #5677FC
@@ -92,12 +92,12 @@ textarea {
 }
 
 body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
-    
+
 }
 body{
     font-family: 'OpenSans';
     background: #fff;
-    
+
     margin: 0;
     padding: 0;
 }
@@ -106,7 +106,7 @@ ul, li{
     margin: 0;
 }
 iframe{
-    border: none;   
+    border: none;
 }
 .pos-rel{
     position: relative;
@@ -122,7 +122,7 @@ iframe{
     max-width: 1440px;
 }
 .full-height{
-    height: 100%;   
+    height: 100%;
 }
 .full-size{
     top:0;
@@ -132,7 +132,7 @@ iframe{
 }
 
 .my-button {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 1rem;
     padding: 1em;
     /* padding-top: 0.8rem; */
@@ -145,7 +145,7 @@ iframe{
 .center-vh{
 /*
     height: 100%;
-    width: 100%; 
+    width: 100%;
 */
     /* width needed for Firefox */
 
@@ -169,7 +169,7 @@ iframe{
     -webkit-box-pack: center; -moz-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
-    justify-content: center;    
+    justify-content: center;
 }
 .pos-top{
     top:0;
@@ -181,10 +181,10 @@ iframe{
     right: 0;
 }
 .pos-bottom{
-    bottom: 0;   
+    bottom: 0;
 }
 .relh100{
-    position:relative; height: 100%;   
+    position:relative; height: 100%;
 }
 /* Make page full width so reset foundation restriction on max-width*/
 .row{
@@ -201,7 +201,7 @@ ul, li{
 .full-width{
     width: 100%;
     max-width: 100%;
-    
+
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -221,16 +221,16 @@ ul, li{
     vertical-align: middle;
 }
 .align-center{
-    text-align: center;   
+    text-align: center;
 }
-.align-left{    
+.align-left{
     text-align: left;
 }
 .align-right{
-    text-align: right;   
+    text-align: right;
 }
 .align-justify{
-    text-align: justify;   
+    text-align: justify;
 }
 /*
 .mask{
@@ -254,121 +254,121 @@ ul, li{
 }
 .title.bg-red,
 .bg-red,
-.mask-red:before{    
+.mask-red:before{
     background: #e51c23;
 }
 .title.bg-yellow,
 .bg-yellow,
-.mask-yellow:before{    
+.mask-yellow:before{
     background: #ffeb3b;
 }
 .title.bg-blue,
 .bg-blue,
-.mask-blue:before{    
+.mask-blue:before{
     background: #5677fc;
 }
 .title.bg-pink,
 .bg-pink,
-.mask-pink:before{    
+.mask-pink:before{
     background: #e91e63;
 }
 .title.bg-green,
 .bg-green,
-.mask-green:before{    
+.mask-green:before{
     background: #259b24;
 }
 .title.bg-white,
 .bg-white,
-.mask-white:before{    
+.mask-white:before{
     background: #fff;
 }
 .title.bg-black,
 .bg-black,
-.mask-black:before{    
+.mask-black:before{
     background: #1f1f1f;
 }
 .title.bg-orange,
 .bg-orange,
-.mask-orange:before{    
+.mask-orange:before{
     background: #ff9800;
 /*    background: #ef6c00;*/
 }
 .title.bg-purple,
 .bg-purple,
-.mask-purple:before{    
+.mask-purple:before{
     background: #9c27b0;
 }
 .title.bg-lime,
 .bg-lime,
-.mask-lime:before{    
+.mask-lime:before{
     background: #cddc39;
 }
 .title.bg-bluegrey,
 .bg-bluegrey,
-.mask-bluegrey:before{    
+.mask-bluegrey:before{
     background: #607d8b;
 }
 
 .title.bg-bluegreylight,
 .bg-bluegreylight,
-.mask-bluegreylight:before{    
+.mask-bluegreylight:before{
     background: #f0f0f0;
 }
 .title.bg-bluegreydark,
 .bg-bluegreydark,
-.mask-bluegreydark:before{    
+.mask-bluegreydark:before{
     background: #37474f;
 }
 .title.bg-indigo,
 .bg-indigo,
-.mask-indigo:before{    
+.mask-indigo:before{
     background: #3f51b5;
 }
 .title.bg-black,
 .bg-black,
-.mask-black:before{    
+.mask-black:before{
     background: #000;
 }
 .title.bg-black1,
 .bg-black1,
-.mask-black1:before{    
+.mask-black1:before{
     background: #333;
 }
 .title.bg-amber,
 .bg-amber,
-.mask-amber:before{    
+.mask-amber:before{
     background: #ffc107;
 }
 
 .text-white{
-    color: #fff;   
+    color: #fff;
 }
 .text-black{
-    color: #333333;   
+    color: #333333;
 }
 .text-bold{
-    font-weight: bold;   
+    font-weight: bold;
 }
 .text-red{
-    color: #e51c23;   
+    color: #e51c23;
 }
 .text-blue{
-    color: #455ede;   
+    color: #455ede;
 }
 .text-orange{
-    color: #ff9800;   
+    color: #ff9800;
 }
 .text-yellow{
-    color: #ffd600;   
+    color: #ffd600;
 }
 .text-amber{
-    color: #ffc107;   
+    color: #ffc107;
 }
 .text-pink{
-    color: #e91e63;   
+    color: #e91e63;
 }
 .text-lightblue{
-    color: #03a9f4;   
+    color: #03a9f4;
 }
 
 .small-col-20{
@@ -407,7 +407,7 @@ ul, li{
     transition: 0.6s;
 }
 .invisible{
-    display: none !important;  
+    display: none !important;
 }
 .s-visible-medium-up{
     opacity:0;
@@ -417,10 +417,10 @@ strong,
 	font-weight: bold;
 }
 .column, .columns{
-    padding: 0;   
+    padding: 0;
 }
 .row .row{
-    margin: 0;   
+    margin: 0;
 }
 
 /* 1. Link and logo at top  */
@@ -511,7 +511,7 @@ strong,
 		background: rgba(255, 255, 255, 0.15);
 		color: #fff;
 	}
- 
+
 /* 2. Dot navigation at right */
 #fp-nav.right{
     right: 0px;
@@ -535,11 +535,11 @@ strong,
     margin: 16px;
     position: relative;
 }
-	#fp-nav span:after, .fp-slidesNav span:after{	
-		background: rgba(255, 255, 255, 0.15);  
+	#fp-nav span:after, .fp-slidesNav span:after{
+		background: rgba(255, 255, 255, 0.15);
 		position: absolute;
 		content: "";
-		
+
 		display: block;
 		top: 4px;
 		left: 4px;
@@ -553,7 +553,7 @@ strong,
     background: #fff;
 	position: absolute;
 }
-	#fp-nav li .active span:after, 
+	#fp-nav li .active span:after,
 	.fp-slidesNav .active span:after{
 		top: -6px;
 		left: -6px;
@@ -781,7 +781,7 @@ strong,
         background: rgba(0, 0, 0, 0.12);
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed; 
+        background-attachment: fixed;
         z-index: 0;
         -webkit-transition: 2s;
         -ms-transition: 2s;
@@ -792,13 +792,13 @@ strong,
 		display: none;
 	}
 /* 6. Main Page */
-.page-main{  
+.page-main{
     position: relative;
 	margin-left: 50%;
     width: 50%;
     height: 100%;
 }
- 
+
 /* 6.0 Page footer with scroll down button */
 .p-footer {
     bottom: 0;
@@ -839,7 +839,7 @@ strong,
 	display: block;
 	border: 0px solid #fff;
 	border-radius: 100%;
-    margin-left: -24px;   
+    margin-left: -24px;
 	transition: 0.3s;
 	font-family: "Opensans";
 	color: #fff;
@@ -850,8 +850,8 @@ strong,
 		background: #fff;
 	}
 	.p-footer .arrow-d.gone{
-		-webkit-transform: scale(0);   
-		transform: scale(0);   
+		-webkit-transform: scale(0);
+		transform: scale(0);
 		-webkit-transition: 0.2s;
 		transition: 0.2s;
 	}
@@ -904,9 +904,9 @@ strong,
 		top: 0px;
 		bottom: 0px;
 		left: 0px;
-		right: 0px; 
+		right: 0px;
 	}
-	.p-footer .arrow-d:hover .circle:after{	
+	.p-footer .arrow-d:hover .circle:after{
 		border-radius: 0;
 		left: 23px;
 		right: 23px;
@@ -934,31 +934,31 @@ strong,
 	*/
 		border: 2px solid rgba(255, 255, 255, 0.15);
 		border-left-color: transparent;
-		border-top-color: transparent;  
+		border-top-color: transparent;
 		-ms-transition: 0.3s;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
 	}
-	.p-footer .arrow-d:after{   
-		border-right-color: transparent;  
+	.p-footer .arrow-d:after{
+		border-right-color: transparent;
 		top: 12px;
 		left: 36px;
-		-ms-transform: rotateZ(-45deg); 
-		-webkit-transform: rotateZ(-45deg); 
-		transform: rotateZ(-45deg); 
+		-ms-transform: rotateZ(-45deg);
+		-webkit-transform: rotateZ(-45deg);
+		transform: rotateZ(-45deg);
 	}
-	.p-footer .arrow-d:before{  
+	.p-footer .arrow-d:before{
 		border-bottom-color: transparent;
-		top: 12px; 
+		top: 12px;
 		left: -12px;
 		-ms-transform: rotateZ(-135deg);
 		-moz-transform: rotateZ(-135deg);
 		transform: rotateZ(-135deg);
 	}
-	.p-footer .arrow-d.no-change:after, 
-	.p-footer .arrow-d:hover:after{ 
+	.p-footer .arrow-d.no-change:after,
+	.p-footer .arrow-d:hover:after{
 		margin-top: 1px;
-		top: 16px; 
+		top: 16px;
 		left: 16px;
 		bottom: 16px;
 		right: 16px;
@@ -966,8 +966,8 @@ strong,
 		height: auto;
 		border: 2px solid #1d1d1d;
 		border-left-color: transparent;
-		border-top-color: transparent;  
-		border-right-color: transparent; 
+		border-top-color: transparent;
+		border-right-color: transparent;
 		-ms-transform: rotateZ(45deg);
 		-webkit-transform: rotateZ(45deg);
 		transform: rotateZ(45deg);
@@ -984,13 +984,13 @@ strong,
 
 		border: 2px solid #1d1d1d;
 		border-left-color: transparent;
-		border-top-color: transparent;  
+		border-top-color: transparent;
 		border-bottom-color: transparent;
 		-ms-transform: rotateZ(45deg);
 		-webkit-transform: rotateZ(45deg);
 		transform: rotateZ(45deg);
 	}
-	.p-footer:hover .arrow-d.no-change:after, 
+	.p-footer:hover .arrow-d.no-change:after,
 	.p-footer:hover .arrow-d.no-change:before{
 		top: 4rem;
 	}
@@ -999,13 +999,13 @@ strong,
 	}
 /* 6.1 Page general params */
 
-.page{    
+.page{
     position: relative;
     width: 100%;
     height: 100%;
 }
 .page-cent{
-    width: 100%;   
+    width: 100%;
     position: relative;
     text-align: center;
 }
@@ -1019,7 +1019,7 @@ strong,
 	padding-bottom: 72px;
     padding-left: 56px;
     padding-right: 56px;
-    display: inline-block; 
+    display: inline-block;
     -ms-transition: 0.6s;
     -webkit-transition: 0.6s;
     transition: 0.6s;
@@ -1033,7 +1033,7 @@ strong,
     margin-bottom: 0.5rem;
 }
 .page-cent .p-title h3{
-    text-transform: uppercase;   
+    text-transform: uppercase;
     font-size: 32px;
     padding-left: 0px;
     text-align: left;
@@ -1044,7 +1044,7 @@ strong,
 	border-bottom: 8px solid #5677fc;
 }
 .page-cent .p-title h2{
-    text-transform: uppercase;   
+    text-transform: uppercase;
     font-size: 56px;
 	line-height: 1.3em;
     text-align: left;
@@ -1062,12 +1062,12 @@ strong,
     margin-right: 0em;
 	font-size: 0.8em;
 }
-.page-cent .text{	
+.page-cent .text{
     font-family: 'Opensans';
 	color: #fff;
 	text-align: left;
 }
-.page p{    
+.page p{
     font-family: 'Opensans';
     color: #ffffff;
     font-size: 16px;
@@ -1099,7 +1099,7 @@ strong,
 .page h3,
 .page h4{
     font-family: 'Opensans';
-    color: #ffffff;
+    color: #4CB3CF;
 }
 
 /* 6.2 Page and slide animation */
@@ -1192,12 +1192,16 @@ strong,
 }
 
 .page-home .content h2{
+  color: #4CB3CF;
 	text-transform: uppercase;
 	font-size: 56px;
 	text-align: left;
 	line-height: 1em;
 }
 
+.page-home .content h2 strong{
+  color: #6BB445;
+}
 .page-home .content h3{
 	text-align: left;
 	text-transform: uppercase;
@@ -1231,7 +1235,7 @@ strong,
 	left: 0px;
 	top: 14px;
 }
-	
+
 .page .content .subhead:hover{
 	color: #fff;
 }
@@ -1254,7 +1258,7 @@ strong,
 	right: 0;
 	height: 50%;
 	width: 1px;
-	border-left: 1px solid #fff; 
+	border-left: 1px solid #fff;
 }
 /* Logo */
 .pane-when .logo{
@@ -1293,11 +1297,11 @@ strong,
 /* Mask to disable click */
 
 .pane-when .clock:before{
-	
+
 }
 
 .pane-when .clock .text{
-    position: relative; 
+    position: relative;
     width: 100%;
     font-family: 'Opensans';
 	font-weight: normal;
@@ -1321,7 +1325,7 @@ strong,
 	margin-top: -100px;
 }
 .pane-when .clock .elem-center .digit{
-    position: relative; 
+    position: relative;
     font-size: 240px;
 	letter-spacing: -0.02em;
 	line-height: 1;
@@ -1420,12 +1424,12 @@ strong,
 */
 /*    padding-top: 0.2rem;*/
 }
-.page-register .form{  
+.page-register .form{
 	max-width: 480px;
 }
-.page .form{  
+.page .form{
 }
-.page .form input{ 
+.page .form input{
     background: transparent;
 /*    background: #f4f;*/
     border: none;
@@ -1446,7 +1450,7 @@ strong,
 	margin-bottom: 0;
 }
 .page .form.send_email_form input{
-	
+
 }
 .page .form.send_email_form .fields{
 	margin-top: 48px;
@@ -1482,19 +1486,19 @@ strong,
 .page .form .fields>div{
 	float: left;
 }
-.page .form .fields .buttons{ 
+.page .form .fields .buttons{
 	position: absolute;
 	bottom: 0;
 	right: -.5px;
 }
-.page .form button{ 
+.page .form button{
     background: #5677fc;
     color: #fff;
     font-family: 'Opensans';
 	font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 0.5rem 1rem; 
+    padding: 0.5rem 1rem;
     margin-bottom: 0;
 	position: relative;
 	-webkit-transition: 0.3s;
@@ -1513,7 +1517,7 @@ strong,
 	opacity: 0;
 	border-radius: 120px;
 	-webkit-transition: 0.3s;
-	transition: 0.3s;	
+	transition: 0.3s;
 }
 .page .form button:hover:after{
 	opacity: 1;
@@ -1527,12 +1531,12 @@ strong,
 	background: transparent;
 	color: #5677fc;
 }
-.page .form textarea{ 
+.page .form textarea{
     background: #fff;
     border: 1px solid currentColor;
     color: #626262;
     padding: 0.5em 1em;
-    min-width: 200px;    
+    min-width: 200px;
     font-size: 20px;
 	font-family: "Opensans";
     display: block;
@@ -1540,7 +1544,7 @@ strong,
     box-shadow: none;
     min-height: 108px;
 	margin-top: 3px;
-} 
+}
 .page .message-ok{
     margin-bottom: 0;
     position: absolute;
@@ -1549,7 +1553,7 @@ strong,
 
 /* 6.6 About us */
 .page-about .content{
-    
+
 /*    margin-top: -4rem;*/
     border: none;
 /*
@@ -1565,7 +1569,7 @@ strong,
 }
 
 /* 6.7 Contact, Message */
-.page-contact{  
+.page-contact{
 /*    margin-top: -1rem;*/
 }
 
@@ -1623,8 +1627,8 @@ strong,
 	margin-top: 20px;
 }
 .page-contact .contact img{
-	height: 56px;
-	width: auto;
+      height: auto;
+      width: 300px;
 }
 .page-contact a{
     color: #fff;
@@ -1639,16 +1643,27 @@ strong,
 		margin-right: -10px;
 	}
     .page-contact .socialnet a{
-        color: #fff;
+        color:#0177B5;
 		font-size: 24px;
         margin-bottom:  0.25rem;
         display: inline-block;
 		width: 1.5em;
         border-radius: 1em;
-        background: transparent; 
+        background: transparent;
 		position: relative;
 		text-align: center;
     }
+
+    .page-contact .socialnet a:nth-child(2){
+        color:#3B5998
+     }
+
+
+
+    .page-contact .socialnet a:hover {
+        color: #fff;
+    }
+
     .page-contact .socialnet a:after{
 		position: absolute;
 		content: "";
@@ -1664,8 +1679,8 @@ strong,
 	}
     .page-contact .socialnet a:hover:after{
         border-radius: 0;
-        background: rgba(255, 255, 255, 0.15); 
-        color: #fff;       
+        background: rgba(255, 255, 255, 0.15);
+        color: #fff;
     }
 /* Form */
 
@@ -1680,17 +1695,17 @@ strong,
     z-index: -2;
 }
 .video-container video{
-    height: 724px; 
-    width: 1287px; 
-    margin-top: -42px; 
-    margin-left: 0px;   
+    height: 724px;
+    width: 1287px;
+    margin-top: -42px;
+    margin-left: 0px;
 }
-.video-container iframe{    
+.video-container iframe{
     width: 100%;
     height: 100%;
 }
 .show-for-medium-up{
-    display: none;   
+    display: none;
 }
 
 
