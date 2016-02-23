@@ -731,8 +731,32 @@ strong,
 	font-weight: normal;
 }
 .page-footer a:first-child{
-/*	margin-left: 8px;*/
+color:#3B5998;
 }
+.page-footer a:nth-child(2){
+color:#000;
+}
+.page-footer a:last-child{
+color:#0177B5;
+}
+
+.page-footer a:first-child:hover{
+  background-color:#3B5998;
+color:#fff;
+}
+.page-footer a:nth-child(2):hover{
+  background-color:#000;
+color:#fff;
+}
+.page-footer a:last-child:hover{
+  background-color:#0177B5;
+color:#fff;
+}
+
+
+
+
+
 .page-footer a{
 	color: #fff;
 	-webkit-transition: 0.3s;
