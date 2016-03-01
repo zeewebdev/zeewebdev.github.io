@@ -42,3 +42,11 @@
 .quick-link a:hover:after{
 	background: #1d1d1d;
 }
+.quick-link ul li:nth-child(1) a:hover {
+    color: #6BB445;
+
+}
+
+.quick-link ul li:nth-child(3) a:hover {
+    color: #4CB3CF;
+}
