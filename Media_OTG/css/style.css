@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'Moabhoers 2.0';
+  src: url('../fonts/Moabhoers 2.0.eot');
+  src: url('../fonts/Moabhoers 2.0.eot?#iefix') format('embedded-opentype'), url('../fonts/Moabhoers 2.0.woff') format('woff'), url('../fonts/Moabhoers 2.0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Moabhoers Bold 2.0';
+  src: url('../fonts/Moabhoers Bold 2.0.eot');
+  src: url('../fonts/Moabhoers Bold 2.0.eot?#iefix') format('embedded-opentype'), url('../fonts/Moabhoers Bold 2.0.woff') format('woff'), url('../fonts/Moabhoers Bold 2.0.ttf') format('truetype');
+}
+
+body{
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+    color: #4d4d4f;
+	font-family: 'Text Me One', sans-serif;
+}
+p{
+	margin:0;
+}
+/*-- banner --*/  
+.video {
+   background-position:0px 0px;
+	text-align: left;
+	min-height: 100%;
+	background-size:cover;
+}
+.banner-text {
+    margin: 9em 0 10em;
+    text-align: center;
+    display: inline-block;
+    padding: 4em;
+}
+.banner-text h1 {
+    color: #4d4d4f;
+    font-family: 'Moabhoers 2.0';
+    font-weight: 400;
+    font-size: 55px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.banner-text h6 {
+    font-size: 1.2em;
+    color: #cac7c8;
+    margin-top: 1em;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.btns span {
+    font-size: 40px;
+    padding: 5px 15px 2px;
+    background: #25aae1;
+    color: #fff;
+}
+
+.btns {
+    height: 47px !important;
+    overflow: hidden;
+    font-family: 'Moabhoers Bold 2.0';
+}
+.create.btns span {
+    float: right;
+}
+.inspire.btns span {
+    float: left;
+}
+.dream.btns {
+    margin-top: 60px;
+}
+.social-icons.text-center {
+    padding-top: 15px;
+    float: right;
+}
+.video iframe{
+width: 100%;
+    min-height: 15em;
+    border: 1px solid #b3b3b3;
+}
+/*-- //banner --*/  
+/*-- footer --*/
+
+footer {
+    padding: 40px 0 20px;
+}
+
+/*-- //footer --*/
+/*-- responsive-design --*/
+@media(max-width:1440px){
+}
+@media(max-width:1366px){
+}
+@media(max-width:1280px){
+}
+@media(max-width:1080px){
+.nav > li { 
+    padding: 1.5em 1.5em;
+} 
+}
+@media(max-width:1024px){
+.banner-text {
+    margin: 3em 0 7.1em; 
+}
+}
+@media(max-width:991px){
+.social-icons.text-center {
+    float: none;
+}
+body > footer > div > div > div:nth-child(1) > img {
+    margin: auto;
+    display: inherit;
+}
+.banner-text h1 {
+    font-size: 3.2em; 
+
+}
+.banner-text {
+    margin: 3em 0;
+    padding: 3em;
+}
+.create.btns span {
+     float:none; 
+}
+.inspire.btns span {
+    float: none;
+}
+}
+@media(max-width:800px){
+ul.nav.navbar li a {
+    font-size: 1.2em;
+}
+.banner-text h1 {
+    font-size: 2.8em;
+}
+.progress { 
+    margin-bottom: 2em; 
+}
+}
+@media(max-width:768px){ 
+.about-right {
+    padding: 0 2em;
+}
+p { 
+    letter-spacing: 0px;
+}
+p.agile-br {
+    margin-top: 0.8em;
+}
+}
+@media(max-width:767px){
+}
+@media(max-width:736px){
+.banner-text {
+    margin: 3em 0; 
+}
+.banner-text h1 {
+    font-size: 2.5em;
+}
+.banner-text h6 {
+    font-size: 1.1em; 
+    letter-spacing: 2px; 
+}
+}
+@media (max-width: 667px){
+.banner-text {
+    margin: 3em 0;
+}
+}
+@media(max-width:640px){
+}
+@media(max-width:568px){
+}
+@media(max-width:480px){
+.banner-text {
+    margin: 3em 0;
+} 
+.banner-text h6 {
+    font-size: 1em; 
+    letter-spacing: 0; 
+}
+.banner-text h1 {
+    font-size: 3em;
+}
+}
+@media(max-width:414px){
+.banner-text {
+    margin: 3em 0;
+	padding: 2em;
+}  
+.footer p { 
+    font-size: 1em;
+}
+.about-right, .bar-grids {
+    padding: 0 0.5em;
+}
+.about-text {
+    padding: 1em 0.5em 0;
+}
+p {
+    font-size: 0.9em; 
+}
+ul.address li ul.agileits-address-text li {
+    font-size: 1em; 
+}
+}
+@media(max-width:384px){
+.banner-text {
+    margin: 3em 0;
+}
+.banner-text h1 {
+    font-size: 3em;
+} 
+.footer {
+    padding: 2em 1em; 
+}
+
+}
+@media(max-width:375px){
+}
+@media(max-width:320px){
+.banner-text h1 {
+    font-size: 3em;
+}
+.banner-text h6 {
+    font-size: 0.9em; 
+}
+.banner-text {
+    margin: 3em 0;
+	padding: 1.2em 1.5em;
+}
+}
+/*-- //responsive-design --*/
